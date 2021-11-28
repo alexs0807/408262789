@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+　<HEAD>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type = "text/javascript"></script>
+    <script>
+        $(document).ready(function() {
+            $("#text").hide();
+       
+            $("button").click(function() {      
+                $("#text").slideDown(2000);  
+                    return false;
+            });
+        });
+    </script>
+　　<TITLE>My page</TITLE>
 
-You can use the [editor on GitHub](https://github.com/alexs0807/408262789/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+　　<Meta>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+　</HEAD>
 
-### Markdown
+　<BODY BGCOLOR=#B1E0E1>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <center>
+        <h1><b><big>歡迎來到我的網頁!</big></b><br></h1>
+        <p>
+            My name is 葉庭豪.<br><br>
+            Major in Computer Science at FJU.<br>
+        </p>
+        <h4>Let me introduce myin 興趣.</h4>
+        
+        <p>
+            我喜歡打籃球. 
+            我喜歡打棒球.
+            我喜歡聽音樂. 
+        </p>
+        
+        
+        <img height=300 width=300 src= https://image.shutterstock.com/image-photo/baseball-isolated-on-white-clipping-260nw-111707321.jpg>
+        <img height=300 width=300 src= https://b.ecimg.tw/items/DEAQ67A83444012/000002_1616036634.jpg><br>
+        <br>
+        <button class="btn btn-default target" id="button">聯絡點我!!</button> 
+        <big><h4 id ="text">https://www.facebook.com/profile.php?id=100004873663944</h4> </big>
+    </center>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+　</BODY>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alexs0807/408262789/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</HTML>
